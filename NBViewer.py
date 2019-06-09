@@ -4,7 +4,7 @@ import json
 
 Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
 filename = askopenfilename() # show an "Open" dialog box and return the path to the selected file
-with open(filename) as f:
+with open(filename,encoding="utf-8") as f:
     contents = f.read()
 
 contents_dict = json.loads(contents)
