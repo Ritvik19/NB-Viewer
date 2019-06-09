@@ -9,3 +9,7 @@ Dependencies:
 ```
 pip install tkinter
 ```
+* tk-html-widgets
+```
+pip install tk-html-widgets
+```
